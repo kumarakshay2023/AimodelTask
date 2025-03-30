@@ -1,6 +1,6 @@
 import { generateTweet } from "../services/openAi.service.js";
 import { postTweet } from "../services/twitter.service.js";
-import { validateCaption } from "../validations/caption.valdation.js";
+import { validateCaption } from "../validations/caption.validation.js";
 
 // Controller function to generate and post a tweet
 export async function generateAndPostTweet(req, res) {
